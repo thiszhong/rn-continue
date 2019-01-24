@@ -1,0 +1,24 @@
+{
+  "name": "react-native-continue",
+  "version": "1.0.0",
+  "description": "react-native components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiszhong/rn-continue.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-componetns",
+    "react-native-ui"
+  ],
+  "author": "zhong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiszhong/rn-continue/issues"
+  },
+  "homepage": "https://github.com/thiszhong/rn-continue#readme"
+}
