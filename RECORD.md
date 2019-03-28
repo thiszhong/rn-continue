@@ -21,3 +21,4 @@
 + Modal显示时会阻止StatusBar的相关方法，比如setHidden 
 + axios 低版本安卓（4.x）可能会因为 maxContentLength （文档上 2000，貌似改写也不起作用）导致 response.data 不能被正确格式化（可能被截断了）。而 fetch 测试正常
 + Android 下的 webview 加载 H5 页面的部分图片不显示，原因可能是：android webview 从Lollipop(5.0)开始webview默认不允许混合模式，https当中不能加载http资源。对应 React-native-webview 的 mixedContentMode 属性
++ Android P(9.0)以上默认要求加密请求，会导致打包后url为http图片不显示。参考：[https://www.jianshu.com/p/57047a84e559](https://www.jianshu.com/p/57047a84e559)
